@@ -1,0 +1,7 @@
+pi = 3.14159
+
+r = int(input("반지름 :"))
+
+circle = r*r*pi
+
+print("반지름이 %d 인 원의 면적은 %.5f 입니다." %(r,circle))
